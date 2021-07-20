@@ -1,5 +1,7 @@
 # Pytorch Note
 
+什么是快乐星球，让我用简单易懂的代码带你进入pytorch快乐星球
+
 ![](https://img-blog.csdnimg.cn/img_convert/ac4fe519487d89d342cb05d2f710a20c.png)
 
 这是我的Pytoch学习笔记，下面会慢慢的更新我的学习笔记
