@@ -2,7 +2,7 @@
 
 什么是快乐星球，让我用简单易懂的代码带你进入pytorch快乐星球
 
-![](https://img-blog.csdnimg.cn/img_convert/ac4fe519487d89d342cb05d2f710a20c.png)
+![](https://img-blog.csdnimg.cn/img_convert/ac4fe519487d89d342cb05d2f710a20c.png#pic_center)
 
 这是我的Pytoch学习笔记，下面会慢慢的更新我的学习笔记
 
@@ -48,6 +48,12 @@
 [Note20 优化算法6 Adam算法](https://blog.csdn.net/weixin_45508265/article/details/118931366)
 
 [Note21 优化算法对比](https://blog.csdn.net/weixin_45508265/article/details/118931198)
+
+[Note22 数据预处理](https://blog.csdn.net/weixin_45508265/article/details/118933624)
+
+[Note23 参数初始化](https://blog.csdn.net/weixin_45508265/article/details/118945764)
+
+[Note24 防止过拟合](https://blog.csdn.net/weixin_45508265/article/details/118946214)
 
 
 ---

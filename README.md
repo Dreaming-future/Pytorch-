@@ -1,10 +1,13 @@
 # Pytorch Note
 
-![](https://img-blog.csdnimg.cn/img_convert/ac4fe519487d89d342cb05d2f710a20c.png)
+什么是快乐星球，让我用简单易懂的代码带你进入pytorch快乐星球
+
+![](https://img-blog.csdnimg.cn/img_convert/ac4fe519487d89d342cb05d2f710a20c.png#pic_center)
 
 这是我的Pytoch学习笔记，下面会慢慢的更新我的学习笔记
 
 ---
+
 [Note1 Pytorch介绍](https://blog.csdn.net/weixin_45508265/article/details/117808642)
 
 [Note2 Pytorch环境配置](https://blog.csdn.net/weixin_45508265/article/details/117809016)
@@ -47,10 +50,17 @@
 
 [Note21 优化算法对比](https://blog.csdn.net/weixin_45508265/article/details/118931198)
 
+[Note22 数据预处理](https://blog.csdn.net/weixin_45508265/article/details/118933624)
+
+[Note23 参数初始化](https://blog.csdn.net/weixin_45508265/article/details/118945764)
+
+[Note24 防止过拟合](https://blog.csdn.net/weixin_45508265/article/details/118946214)
+
 
 ---
 
 参考:
+
 - 《深度学习入门之pytorch》
 - [https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
 
