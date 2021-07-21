@@ -3,7 +3,6 @@
 [toc]
 全部笔记的汇总贴：[Pytorch Note 快乐星球](https://blog.csdn.net/weixin_45508265/article/details/117809512)
 
-
 ## 优化算法1 梯度下降（Gradient descent varients）
 
 梯度下降有三种变形，主要的不同就是在于我们使用多少数据来计算我们的目标函数的梯度。我们可以根据我们的数据量，去 trade off 我们的参数更新的准确率和运行时间。

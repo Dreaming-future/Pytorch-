@@ -4,10 +4,10 @@
 
 全部笔记的汇总贴：[Pytorch Note 快乐星球](https://blog.csdn.net/weixin_45508265/article/details/117809512)
 
-# Adadelta
+## Adadelta
 Adadelta 算是 Adagrad 法的延伸，它跟 RMSProp 一样，都是为了解决 Adagrad 中学习率不断减小的问题，RMSProp 是通过移动加权平均的方式，而 Adadelta 也是一种方法，有趣的是，它并不需要学习率这个参数。接下来让我们详细介绍一下
 
-# Adadelta 算法
+## Adadelta 算法
 
 Adadelta 跟 RMSProp 一样，先使用移动平均来计算 s
 
@@ -35,7 +35,7 @@ $$
 
 下面我们实现以下 Adadelta
 
-# 代码从0实现
+## 代码从0实现
 
 我们还是利用`minst`的数据
 
@@ -136,7 +136,7 @@ plt.legend(loc='best')
 
 可以看到使用 adadelta 跑 5 次能够得到更小的 loss
 
-# pytorch内置优化器
+## pytorch内置优化器
 
 当然 pytorch 也内置了 adadelta 的方法，非常简单，只需要调用 `torch.optim.Adadelta()` 就可以了，下面是例子
 

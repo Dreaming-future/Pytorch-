@@ -4,11 +4,11 @@
 
 全部笔记的汇总贴：[Pytorch Note 快乐星球](https://blog.csdn.net/weixin_45508265/article/details/117809512)
 
-# Adam (Adaptive Moment Estimation)
+## Adam (Adaptive Moment Estimation)
 
 Adam 是一个结合了动量法和 RMSProp 的优化算法，其结合了两者的优点，达到比RMSProp更好的效果
 
-# Adam 算法
+## Adam 算法
 
 Adam 算法会使用一个动量变量 v 和一个 RMSProp 中的梯度元素平方的移动指数加权平均 s，首先将他们全部初始化为 0，然后在每次迭代中，计算他们的移动加权平均进行更新
 
@@ -38,7 +38,7 @@ $$
 \theta_i = \theta_{i-1} - g'
 $$
 
-# 代码从0实现
+## 代码从0实现
 
 ```python
 import numpy as np
@@ -142,7 +142,7 @@ plt.legend(loc='best')
 
 可以看到使用 adam 算法 loss 能够更快更好地收敛，但是一定要小心学习率的设定，使用自适应的算法一般需要更小的学习率
 
-# pytorch内置优化器
+## pytorch内置优化器
 
 当然 pytorch 中也内置了 adam 的实现，只需要调用 `torch.optim.Adam()`，下面是例子
 
@@ -187,5 +187,4 @@ print('使用时间: {:.5f} s'.format(end - start))
 > epoch: 4, Train Loss: 0.085833
 > 使用时间: 37.55082 s
 > ```
->
 
