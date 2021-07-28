@@ -12,11 +12,11 @@
 
 下图是ResNet18层模型的结构简图
 
-![](.\img\Original-ResNet-18-Architecture.png)
+![](img/Original-ResNet-18-Architecture.png)
 
 还有ResNet-34模型
 
-![](./img/ResNet-34.png)
+![](img/ResNet-34.png)
 
 在ResNet网络中有如下几个亮点：
 
@@ -44,13 +44,13 @@
 
 我们先对ResNet18/34的残差结构进行一个分析。如下图所示，该残差结构的主分支是由两层3x3的卷积层组成，而残差结构右侧的连接线是shortcut分支也称捷径分支（注意为了让主分支上的输出矩阵能够与我们捷径分支上的输出矩阵进行相加，**必须保证这两个输出特征矩阵有相同的shape**）。我们会发现有一些虚线结构，论文中表述为用1x1的卷积进行降维，下图给出了详细的残差结构。
 
-![](./img/residual.png)
+![](img/residual.png)
 
 ## ResNet50/101/152的Bottleneck结构
 
 接着我们再来分析下针对ResNet50/101/152的残差结构，如下图所示。在该残差结构当中，主分支使用了三个卷积层，第一个是1x1的卷积层用来压缩channel维度，第二个是3x3的卷积层，第三个是1x1的卷积层用来还原channel维度（注意主分支上第一层卷积层和第二次卷积层所使用的卷积核个数是相同的，第三次是第一层的4倍），这种又叫做bottleneck模型
 
-![](./img/residual2.png)
+![](img/residual2.png)
 
 ## ResNet网络结构配置
 
@@ -67,7 +67,7 @@
 
 ### BasicBlock
 
-![](./img/BasicBlock.png)
+![](img/BasicBlock.png)
 
 ```python
 class BasicBlock(nn.Module):
@@ -102,7 +102,7 @@ class BasicBlock(nn.Module):
 
 ### Bottleneck Block
 
-![](./img/Bottleneck.png)
+![](img/Bottleneck.png)
 
 ```python
 class Bottleneck(nn.Module):
@@ -145,7 +145,7 @@ class Bottleneck(nn.Module):
 
 ### ResNet
 
-![](./img/ResNet-34.png)
+![](img/ResNet-34.png)
 
 ```python
 class ResNet(nn.Module):

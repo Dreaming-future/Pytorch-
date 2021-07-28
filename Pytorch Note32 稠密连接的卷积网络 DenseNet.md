@@ -12,21 +12,21 @@ DenseNet 和 ResNet 不同在于 ResNet 是跨层求和，而 DenseNet 是跨层
 
 这个是最标准的卷积神经网络
 
-![img](.\img\dense1.png)
+![img](img/dense1.png)
 
 这是ResNet，是跨层求和
 
-![img](.\img\dense2.png)
+![img](img/dense2.png)
 
 这个就是DenseNet，是跨层将特征在通道维度进行拼接
 
-![img](.\img\dense3.png)
+![img](/img/dense3.png)
 
 ## Dense Block
 
 DenseNet的网络架构如下图所示，了便于下采样的实现，我们将网络划分为多个稠密连接的dense block，网络由多个Dense Block与中间的卷积池化组成，核心就在Dense Block中。Dense Block中的黑点代表一个卷积层，其中的多条黑线代表数据的流动，每一层的输入由前面的所有卷积层的输出组成。注意这里使用了通道拼接（Concatnate）操作，而非ResNet的逐元素相加操作。
 
-![DenseNet Explained | Papers With Code](.\img\DenseNet_Explained.png)
+![DenseNet Explained | Papers With Code](img/DenseNet_Explained.png)
 
 我们将每个block之间的层称为过渡层，完成卷积和池化的操作。在我们的实验中，过渡层由BN层、1x1卷积层和2x2平均池化层组成。
 
@@ -34,7 +34,7 @@ DenseNet的网络架构如下图所示，了便于下采样的实现，我们将
 
 具体的Block实现细节如下图所示，每一个Block由若干个Bottleneck的卷积层组成，对应上面图中的黑点。Bottleneck由BN、ReLU、1×1卷积、BN、ReLU、3×3卷积的顺序构成，也被称为DenseNet-B结构。其中1x1 Conv得到 4k 个特征图它起到的作用是降低特征数量，从而提升计算效率。
 
-![](.\img\Dense_bottleneck.png)
+![](img/Dense_bottleneck.png)
 
 关于Block，有以下4个细节需要注意：
 
@@ -43,19 +43,19 @@ DenseNet的网络架构如下图所示，了便于下采样的实现，我们将
 3. 上图中的特征传递方式是直接将前面所有层的特征Concatnate后传到下一层，这种方式与具体代码实现的方式是一致的。
 4. Block采用了激活函数在前、卷积层在后的顺序，这与一般的网络上是不同的。
 
-![img](.\img\densenet.gif)
+![img](img/densenet.gif)
 
 ## DenseNet 的网络结构
 
 在ImageNet数据集上的网络如下图所示
 
-![DenseNet](.\img\densenet_table.png)
+![DenseNet](img/densenet_table.png)
 
 ## 代码实现
 
 由于我是对CIFAR进行实验，而论文中给出的是ImageNet的网络模型，所以由于数据集的不同，模型稍微有些不同
 
-![CIFAR，SVHN结构](.\img\dense_cifar.jpg)
+![CIFAR，SVHN结构](img/dense_cifar.jpg)
 
 ### Bottleneck
 
