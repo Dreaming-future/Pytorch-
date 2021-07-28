@@ -55,6 +55,24 @@
 
 [Note24 防止过拟合](https://blog.csdn.net/weixin_45508265/article/details/118946214)
 
+[Note25 深层神经网络实现 MNIST 手写数字分类](https://blog.csdn.net/weixin_45508265/article/details/118960084)
+
+[Note26 卷积神经网络](https://blog.csdn.net/weixin_45508265/article/details/118971022)
+
+[Note27 卷积设计的一些经验总结](https://blog.csdn.net/weixin_45508265/article/details/118971229)
+
+[Note28 Pytorch的卷积模块](https://blog.csdn.net/weixin_45508265/article/details/118972098)
+
+[Note29 使用重复元素的深度网络 VGG](https://blog.csdn.net/weixin_45508265/article/details/118974104)
+
+[Note30 更加丰富化结构的网络 GoogLeNet](https://blog.csdn.net/weixin_45508265/article/details/119040170)
+
+[Note31 深度残差网络 ResNet](https://blog.csdn.net/weixin_45508265/article/details/119087199)
+
+[Note32 稠密连接的卷积网络 DenseNet]()
+
+[Note33 数据增强](https://blog.csdn.net/weixin_45508265/article/details/119047348)
+
 
 ---
 
