@@ -202,4 +202,7 @@ class GoogLeNet(nn.Module):
 - v3：对 inception 模块做了调整  
 - v4：基于 ResNet 加入了 残差连接  
 
-如果想更加了解，可以持续关注我的博客
+如果想详细了解利用pytorch和GoogLeNet在CIFAR-10上的详细代码和解释，可以持续关注我的[博客](https://blog.csdn.net/weixin_45508265)
+
+
+

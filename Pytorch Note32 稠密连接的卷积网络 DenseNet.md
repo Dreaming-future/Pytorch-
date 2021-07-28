@@ -227,7 +227,26 @@ Acc, Loss, Lr = train(net, trainloader, testloader, epoch, optimizer, criterion,
 ```
 
 ```python
-
+Epoch [  1/ 20]  Train Loss:1.457685  Train Acc:46.79% Test Loss:1.159939  Test Acc:58.61%  Learning Rate:0.100000	Time 03:26
+Epoch [  2/ 20]  Train Loss:0.918042  Train Acc:67.23% Test Loss:0.978080  Test Acc:66.76%  Learning Rate:0.100000	Time 03:26
+Epoch [  3/ 20]  Train Loss:0.713618  Train Acc:75.13% Test Loss:0.702649  Test Acc:75.79%  Learning Rate:0.100000	Time 03:14
+Epoch [  4/ 20]  Train Loss:0.586451  Train Acc:79.65% Test Loss:0.621467  Test Acc:78.59%  Learning Rate:0.100000	Time 03:21
+Epoch [  5/ 20]  Train Loss:0.516065  Train Acc:82.01% Test Loss:0.571210  Test Acc:80.01%  Learning Rate:0.100000	Time 03:21
+Epoch [  6/ 20]  Train Loss:0.470830  Train Acc:83.65% Test Loss:0.538970  Test Acc:81.71%  Learning Rate:0.100000	Time 03:26
+Epoch [  7/ 20]  Train Loss:0.424286  Train Acc:85.22% Test Loss:0.497426  Test Acc:82.99%  Learning Rate:0.100000	Time 03:10
+Epoch [  8/ 20]  Train Loss:0.398347  Train Acc:86.05% Test Loss:0.481514  Test Acc:83.75%  Learning Rate:0.100000	Time 03:33
+Epoch [  9/ 20]  Train Loss:0.375151  Train Acc:86.94% Test Loss:0.484835  Test Acc:83.61%  Learning Rate:0.100000	Time 03:40
+Epoch [ 10/ 20]  Train Loss:0.355356  Train Acc:87.74% Test Loss:0.495134  Test Acc:83.57%  Learning Rate:0.100000	Time 03:33
+Epoch [ 11/ 20]  Train Loss:0.241889  Train Acc:91.73% Test Loss:0.331097  Test Acc:88.66%  Learning Rate:0.010000	Time 03:37
+Epoch [ 12/ 20]  Train Loss:0.211223  Train Acc:92.83% Test Loss:0.320972  Test Acc:89.12%  Learning Rate:0.010000	Time 03:22
+Epoch [ 13/ 20]  Train Loss:0.195006  Train Acc:93.34% Test Loss:0.306602  Test Acc:89.39%  Learning Rate:0.010000	Time 03:09
+Epoch [ 14/ 20]  Train Loss:0.183884  Train Acc:93.63% Test Loss:0.306510  Test Acc:89.98%  Learning Rate:0.010000	Time 03:12
+Epoch [ 15/ 20]  Train Loss:0.174167  Train Acc:93.99% Test Loss:0.297684  Test Acc:90.17%  Learning Rate:0.010000	Time 03:22
+Epoch [ 16/ 20]  Train Loss:0.159896  Train Acc:94.58% Test Loss:0.299201  Test Acc:89.86%  Learning Rate:0.001000	Time 04:30
+Epoch [ 17/ 20]  Train Loss:0.158322  Train Acc:94.60% Test Loss:0.308903  Test Acc:90.05%  Learning Rate:0.001000	Time 06:31
+Epoch [ 18/ 20]  Train Loss:0.152777  Train Acc:94.76% Test Loss:0.301876  Test Acc:89.98%  Learning Rate:0.001000	Time 03:08
+Epoch [ 19/ 20]  Train Loss:0.152887  Train Acc:94.78% Test Loss:0.308110  Test Acc:89.77%  Learning Rate:0.001000	Time 03:11
+Epoch [ 20/ 20]  Train Loss:0.150318  Train Acc:94.95% Test Loss:0.301545  Test Acc:90.06%  Learning Rate:0.001000	Time 03:06
 ```
 
 DenseNet 将残差连接改为了特征拼接，使得网络有了更稠密的连接

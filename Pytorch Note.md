@@ -69,9 +69,13 @@
 
 [Note31 深度残差网络 ResNet](https://blog.csdn.net/weixin_45508265/article/details/119087199)
 
-[Note32 稠密连接的卷积网络 DenseNet]()
+[Note32 稠密连接的卷积网络 DenseNet](https://blog.csdn.net/weixin_45508265/article/details/119184861)
 
 [Note33 数据增强](https://blog.csdn.net/weixin_45508265/article/details/119047348)
+
+[Note34 学习率衰减](https://blog.csdn.net/weixin_45508265/article/details/119089705)
+
+[Note35 正则化](https://blog.csdn.net/weixin_45508265/article/details/119123529)
 
 
 ---
