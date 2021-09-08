@@ -79,6 +79,10 @@
 
 ## part2: 深度学习的应用
 
+- 迁移学习
+  - [Note54 迁移学习简介](https://redamancy.blog.csdn.net/article/details/120159251)
+  - [Note55 迁移学习实战猫狗分类](https://redamancy.blog.csdn.net/article/details/120173576)
+
 - 计算机视觉
   - 
 - 自然语言处理

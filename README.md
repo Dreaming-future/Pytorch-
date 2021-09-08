@@ -73,9 +73,15 @@
   - [Note50 Gym 介绍](https://redamancy.blog.csdn.net/article/details/120072032)
   - [Note51 Deep Q Networks](https://redamancy.blog.csdn.net/article/details/120082922)
 
-
+- Pytorch 高级应用
+  - [Note52 灵活的数据读取介绍](https://redamancy.blog.csdn.net/article/details/120151183)
+  - [Note53 TensorBoard可视化](https://redamancy.blog.csdn.net/article/details/120156777)
 
 ## part2: 深度学习的应用
+
+- 迁移学习
+  - [Note54 迁移学习简介](https://redamancy.blog.csdn.net/article/details/120159251)
+  - [Note55 迁移学习实战猫狗分类](https://redamancy.blog.csdn.net/article/details/120173576)
 
 - 计算机视觉
   - 
