@@ -31,6 +31,8 @@ x = Variable(x_tensor, requires_grad=True) # 默认 Variable 是不需要求梯�
 y = Variable(y_tensor, requires_grad=True)
 ```
 
+
+
 ```python
 z = torch.sum(x + y)
 ```

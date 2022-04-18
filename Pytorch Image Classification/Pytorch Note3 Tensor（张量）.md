@@ -261,4 +261,12 @@ print(x)
 
 
 
-下一章传送门：[Note4 Variable（变量）](https://blog.csdn.net/weixin_45508265/article/details/117812880)
+## 几种形状的Tensor
+
+* 0: scalar
+* 1: vector
+* 2: matrix
+* 3: n-dimensional tensor
+
+![Scalar, vector, matrix, tensor - a drawing by Tai-Danae Bradley](https://uploads-ssl.webflow.com/5b1d427ae0c922e912eda447/5cd99a73f8ce4494ad86852e_arraychart.jpg)
+
