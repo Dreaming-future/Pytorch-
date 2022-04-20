@@ -72,10 +72,12 @@
   - [Note49 Q-learning](https://blog.csdn.net/weixin_45508265/article/details/119937575)
   - [Note50 Gym 介绍](https://redamancy.blog.csdn.net/article/details/120072032)
   - [Note51 Deep Q Networks](https://redamancy.blog.csdn.net/article/details/120082922)
-
 - Pytorch 高级应用
   - [Note52 灵活的数据读取介绍](https://redamancy.blog.csdn.net/article/details/120151183)
   - [Note53 TensorBoard可视化](https://redamancy.blog.csdn.net/article/details/120156777)
+- Pytorch 可视化
+  - [Note57 Pytorch可视化网络结构](https://blog.csdn.net/weixin_45508265/article/details/124294236)
+  - [Note58 CNN可视化](https://blog.csdn.net/weixin_45508265/article/details/124300680)
 
 ## part2: 深度学习的应用
 
